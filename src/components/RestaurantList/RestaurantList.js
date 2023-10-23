@@ -15,7 +15,7 @@ class RestaurantList extends Component {
               Add to Cart
             </button>
           </li>
-          {/* Add more restaurant items as needed */}
+          {/* Add more restaurants as needed */}
         </ul>
       </section>
     );

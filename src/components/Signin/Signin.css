@@ -1,0 +1,58 @@
+/* SignIn.css */
+
+.SignIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.SignIn-content {
+  text-align: center;
+}
+
+.SignIn-form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.SignIn-form label {
+  margin-bottom: 5px;
+}
+
+.SignIn-form input {
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.SignIn-form button {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.SignIn-form button:hover {
+  background-color: #d64b25;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.SignIn-links {
+  margin-top: 20px;
+}
+
+.SignIn-links a {
+  color: #ff5733;
+  text-decoration: none;
+}
+
+.SignIn-links a:hover {
+  text-decoration: underline;
+}

@@ -19,7 +19,7 @@ class ShoppingCart extends Component {
     return (
       <div className="shopping-cart">
         <button className="shopping-cart-toggle" onClick={this.toggleCart}>
-          <img src="cart-icon.png" alt="Cart" />
+          <p className='cart-button'>Cart</p>
           {cartItemCount > 0 && (
             <span className="cart-badge">{cartItemCount}</span>
           )}

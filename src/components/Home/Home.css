@@ -40,22 +40,22 @@
     margin-top: -8em;
   }
 
-  .Home-links > a {
+  .Home-link {
     display: flex;
-    flex: 1;
     align-items: center;
     justify-content: center;
-    border: 2px solid white;
-    border-radius: .15em;
-    padding: .6em 3em .6em 3em;
+    border-radius: 4px;
+    padding: 0.6em 2em;
     margin: 2em;
     color: white;
+    background-color: #ff5733;
     font-size: 1.2em;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1); 
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, .5); 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    text-decoration: none;
   }
 
-  .Home-links > a:hover {
-    background: white;
-    color: black;
+  .Home-link:hover {
+    background-color: #d64b25;
   }

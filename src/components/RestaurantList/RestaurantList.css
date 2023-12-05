@@ -1,24 +1,49 @@
 /* Restaurant list's styling */
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
 .restaurant-list h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .restaurant-list ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Updated to wrap */
 }
 
 .restaurant-list li {
   border: 1px solid #ccc;
   padding: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
+  width: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.restaurant-list li:hover {
+  transform: scale(1.05);
 }
 
 .restaurant-list img {
-  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 250px;
 }
 
 .restaurant-list button {
@@ -28,4 +53,9 @@
   padding: 10px 20px;
   margin-top: 10px;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.restaurant-list button:hover {
+  background-color: #d64b25;
 }

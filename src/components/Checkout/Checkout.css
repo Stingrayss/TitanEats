@@ -1,12 +1,35 @@
 /* Checkout.css */
 
 .checkout {
-    max-width: 475px;
+    display: flex;
+    flex: row wrap;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.checkout-form {
+    width: 60%;
     margin: 28px auto;
     padding: 20px;
     background-color: #f8f8f8;
     border: 1px solid #ccc;
     border-radius: 8px;
+}
+
+.cart-items {
+    width: 30%;
+    padding: 50px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 28px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
 }
 
 h2 {
@@ -21,6 +44,7 @@ form {
 
 .form-group {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .label-group {
@@ -57,7 +81,7 @@ label {
     color: #555;
 }
 
-.checkout-button {
+.submit-button {
     background-color: #ff5733;
     color: #fff;
     padding: 10px 20px;
@@ -65,8 +89,10 @@ label {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    width: 20%;
+    margin: 0 auto;
 }
 
-.checkout-button:hover {
-    background-color: #ff5733;
+.submit-button:hover {
+    background-color: #d64b25;
 }

@@ -11,9 +11,8 @@ function Home() {
         <h1 id="Home-title">TitanEats</h1>
       </header>
       <div className="Home-links">
-        <Link to="/signin">Sign-In</Link>
-        <Link to="/restaurants">Restaurants</Link> 
-      </div>
+          <Link to="/signin" className="Home-link">Sign-In</Link>
+        </div>
     </div>
     </div>
   );

@@ -33,8 +33,7 @@ function RestaurantList(props) {
         total: orderTotal,
       };
 
-      navigate('/checkout',{state:{order}});
-
+      navigate('/checkout',{state:{order, cart}});
 
       setCart([]);
       setOrderHistory([...orderHistory]);
@@ -50,15 +49,15 @@ function RestaurantList(props) {
 
   return (
     <div className="App">
+      <h2>Choose a Restaurant</h2>
       <section className="restaurant-list">
-        <h2>Choose a Restaurant</h2>
         <ul>
           {/* Restaurant items with Add to Cart button */}
           <li>
             <img title='TOGO Sandwiches' src={require('./RestaurantImages/TOGOS.png')} alt="Restaurant 1" />
             <h3>TOGO's Sandwich Shop</h3>
             <p>Sandwich Restaurant</p>
-            <button onClick={() => addToCart({ item: 'Pizza', price: 10.99 })}>
+            <button onClick={() => addToCart({ item: 'Sandwich', price: 7.99 })}>
               Add to Cart
             </button>
           </li>
@@ -74,7 +73,7 @@ function RestaurantList(props) {
           <img title='Starbucks' src={require('./RestaurantImages/STARBUCKS.png')} alt="Restaurant 3" />
             <h3>Starbucks Coffee Shop</h3>
             <p>Cafe</p>
-            <button onClick={() => addToCart({ item: 'Pizza', price: 10.99 })}>
+            <button onClick={() => addToCart({ item: 'Coffee', price: 4.99 })}>
               Add to Cart
             </button>
           </li>
@@ -82,7 +81,7 @@ function RestaurantList(props) {
           <img title='Carls Jr.' src={require('./RestaurantImages/CARLSJR.jpg')} alt="Restaurant 4" />
             <h3>Carl's Jr.</h3>
             <p>Hamburger Restaurant</p>
-            <button onClick={() => addToCart({ item: 'Pizza', price: 10.99 })}>
+            <button onClick={() => addToCart({ item: 'Hamburger', price: 3.99 })}>
               Add to Cart
             </button>
           </li>
@@ -90,7 +89,7 @@ function RestaurantList(props) {
           <img title='Juice It Up' src={require('./RestaurantImages/JUICEITUP.jpg')} alt="Restaurant 5" />
             <h3>Juice It Up</h3>
             <p>Healthy Juice Bar</p>
-            <button onClick={() => addToCart({ item: 'Pizza', price: 10.99 })}>
+            <button onClick={() => addToCart({ item: 'Smoothie', price: 5.99 })}>
               Add to Cart
             </button>
           </li>
@@ -98,7 +97,7 @@ function RestaurantList(props) {
           <img title='Panda Express' src={require('./RestaurantImages/PANDA.jpg')} alt="Restaurant 6" />
             <h3>Panda Express</h3>
             <p>Chinese Food Restaurant</p>
-            <button onClick={() => addToCart({ item: 'Pizza', price: 10.99 })}>
+            <button onClick={() => addToCart({ item: 'Orange Chicken Bowl', price: 8.99 })}>
               Add to Cart
             </button>
           </li>
@@ -106,7 +105,7 @@ function RestaurantList(props) {
           <img title='Hibachi-san Japanese Kitchen' src={require('./RestaurantImages/HIBACHI.png')} alt="Restaurant 7" />
             <h3>Hibachi-san Japanese Kitchen</h3>
             <p>Japanese Food Restaurant</p>
-            <button onClick={() => addToCart({ item: 'Pizza', price: 10.99 })}>
+            <button onClick={() => addToCart({ item: 'Sushi', price: 13.99 })}>
               Add to Cart
             </button>
           </li>
@@ -114,7 +113,7 @@ function RestaurantList(props) {
           <img title='Baja Fresh Express' src={require('./RestaurantImages/BAJA.jpg')} alt="Restaurant 8" />
             <h3>Baja Fresh Express</h3>
             <p>Mexican Grill Restaurant</p>
-            <button onClick={() => addToCart({ item: 'Pizza', price: 10.99 })}>
+            <button onClick={() => addToCart({ item: 'Burrito', price: 9.99 })}>
               Add to Cart
             </button>
           </li>

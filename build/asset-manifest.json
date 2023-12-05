@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7ffd3e7.css",
-    "main.js": "/static/js/main.b650f118.js",
+    "main.css": "/static/css/main.c25159a6.css",
+    "main.js": "/static/js/main.98bf2af9.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/BAJA.jpg": "/static/media/BAJA.b9aef4590fbb5bf2a0eb.jpg",
+    "static/media/STARBUCKS.png": "/static/media/STARBUCKS.da29b493f7225418b784.png",
+    "static/media/PANDA.jpg": "/static/media/PANDA.d9cd7e23b3e9dbd68f6a.jpg",
+    "static/media/JUICEITUP.jpg": "/static/media/JUICEITUP.b35c5f1a2454d0841c97.jpg",
+    "static/media/CARLSJR.jpg": "/static/media/CARLSJR.1d72372043869d193f93.jpg",
+    "static/media/PIEOLOGY.jpg": "/static/media/PIEOLOGY.36394d4d09dfa8bd792b.jpg",
+    "static/media/TOGOS.png": "/static/media/TOGOS.6fa7fe5586d5b99a7592.png",
     "index.html": "/index.html",
-    "main.d7ffd3e7.css.map": "/static/css/main.d7ffd3e7.css.map",
-    "main.b650f118.js.map": "/static/js/main.b650f118.js.map",
+    "main.c25159a6.css.map": "/static/css/main.c25159a6.css.map",
+    "main.98bf2af9.js.map": "/static/js/main.98bf2af9.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7ffd3e7.css",
-    "static/js/main.b650f118.js"
+    "static/css/main.c25159a6.css",
+    "static/js/main.98bf2af9.js"
   ]
 }

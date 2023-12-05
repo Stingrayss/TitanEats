@@ -1,6 +1,7 @@
-# TitanEats
+# [TitanEats](https://titaneats.netlify.app/)
 
-Welcome to TitanEats, a delightful ReactJS website that brings the world of culinary delights to your fingertips. Whether you're a seasoned chef or a food enthusiast, TitanEats is here to cater to your cravings. Below, you'll find essential information to get started with the application.
+Welcome to TitanEats, a ReactJS website tailored for CSUF students, which enhances the on-campus dining experience by offering a seamless interface, comprehensive information on available restaurants, and detailed insights into their hours and menus. Below, you'll find essential information to get started with the application. You may also click the header above to be taken to
+the hosted website.
 
 ## Tech Stack
 
@@ -38,5 +39,3 @@ Builds the app for production to the `build` folder, optimizing performance.
 ### `npm run eject`
 
 **Note: This is a one-way operation. Ejecting provides full control over configuration but is irreversible. Use with caution.**
-
-Feel free to explore, contribute, and savor the TitanEats experience. Happy dining!
